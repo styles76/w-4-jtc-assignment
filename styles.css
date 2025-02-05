@@ -1,120 +1,168 @@
 
 
-/* *::before{
+ *::before{
     margin:0;
     padding:0;
-  } */
-  /* *::after{
+  } 
+   *::after{
     margin:0;
     padding:0;
-  } */
+  } 
   *{
     margin:0;
     padding:0;
   }
+  body{
+    /* background-color: black; */
+  }
 
-
-body{
-    background-color:aqua;
-}
-
-.container{
-    background-color: black;
-    align-items: center;
+.nav-bar{
+    display: flex;
+    gap:10px;
+    font-size: large;
     justify-content: space-evenly;
-    border-radius: 10px;
-    display: flex;
-    height:400px;
-    /* flex-direction: column; */
-    border:4px solid black;
-    
-
+    background-color:#333;
+    padding: 4px;
+    border:1px solid red;
 }
 
-.box{
-    border:2px solid gold;
-    background-color: bisque;
+
+.logo{
+     display:flex;
+     flex: 0;
+     padding:15px;
+    
+     flex-direction: column;
+     width: 100px;
+     height:199px;
+     
+    
+}
+
+.head {
+    color:lime;
+    font-size: 18px;
+    
     height: 50px;
-    width: 150px;
-    padding: 20px;
-
-}
-.container div{
-    margin-top: 20px;
-    border-radius: 10px;
-    /* width: 100px; */
-    height: 200px;
-   
-
-}
-.box1{
-    
-    margin-left: 100px;
-    width: 450px;
-text-align: center;
-   
-    border:2px solid red;
-}
-.box2{
-    background-image: url(/flexbox-practice/images/mixer.jpg);
-    background-repeat: no-repeat;
+    background-image: url(/flexbox-practice2/images/codes2.jpg);
+    background-repeat: repeat;
     background-size: cover;
-    border:2px solid yellow;
-    
-   margin-left: 70px;
-   height: 350px;                
-    width: 550px;
-}
-.box3{
-    margin-left: 100px;
-    text-align: center;
-    border:2px solid red;
-    width: 450px;
-    /* align-self: flex-start; */
-}
-
- 
-
-
-h1{
-    text-align: center;
-    color:gold;
-}
-.flex-container{
- 
-    display: flex;
-    flex-direction: row;
-    height:200px;
-    padding:5px;
-    background-color: lightblue;
-    border: 8px solid black;
-  
-    
-}
-.flex-item{
-
-    background-color: lightblue;
-    border:1px solid darkmagenta;
-    text-align: center;
-    font-size: 20px;
-    width:150px;
-    height: 150px;
-    
-
+    background-color:#161718;
+    /* border:2px solid lime; */
     padding:20px;
-    flex:1;
 }
- .flex-item2 {
-  
+.nav {
+    display: inline;
+    position: relative;
+    display: flex;
+    outline: 1px solid lime;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    bottom:230px;
+    /* outline:1px solid lime; */
+    /* left:5px; */
+    /* justify-content: flex-end; */
+    gap:10px;
+    padding:20px;
+}
+#links{
+    position: relative;
+    display: inline;
+    display: flex;
+    color:lime;
+    flex-grow: 1;
+    justify-content: center;
+    font-size: 18px;
+    top:10px;
+    padding:5px;
+    justify-content: end;
+    border:1px dotted red;
    
-    /* align-self: self-end; */
-    border:2px solid brown;
-    width:150px;
-    height:150px;
-} 
-.flex-item3 {
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    text-decoration: none;
+}
+
+.outerarea2{
+    border:2px solid yellow;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 600px;
+    background-color: bisque;
+
+}
+
+.area2{
+   display: flex;
+   flex-wrap: wrap;
+   /* flex-direction: column; */
+
+    background-color: rgb(3, 80, 156);
+    border:6px solid red;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    align-content: center;
+    justify-content: space-evenly;
+    padding:4cap ;
+}
+
+
+ .area2 h1{
+    flex:0;
+   
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid lime;
+    border-radius: 10px;;
+    font-size: 48px;
+    color: #F9FAF8;
+    /* font-weight: 900; */
     
-    border:2px solid brown;
-    width:150px;
-    height:150px;
- }
+} 
+
+/* .area2 p {
+    font-size: 18px;
+    color: #E5E7EB;
+} */
+
+/* .area2 {
+    flex: 1;
+    margin-right: 20px;
+} */
+
+ 
+
+/* img {
+    max-width: 500px;
+    flex: 1;
+} */
+
+
+
+/* .section-two h2 {
+    font-size: 36px;
+    color: #1F2937;
+} */
+
+/* .card-group {
+    display: flex;
+   
+    justify-content: center;
+} */
+
+
+
+
+
+
+/** styling for section three **/
+
+/* .section-three {
+    background-color: #E5E7EB;
+    padding: 120px 300px;
+    display: flex;
+    flex-direction: column;
+} */
